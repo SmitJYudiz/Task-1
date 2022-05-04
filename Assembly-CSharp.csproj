@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{7D1498CD-2418-D524-0DD1-D8A1728E848C}</ProjectGuid>
+    <ProjectGuid>{4EFAAE98-175A-60FA-0436-0A5271A8C57E}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -56,9 +56,14 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\PatrolPointBehaviour.cs" />
-    <Compile Include="Assets\PlayerBehaviour.cs" />
-    <Compile Include="Assets\References.cs" />
+    <Compile Include="Assets\Resources\Task 1\References.cs" />
+    <Compile Include="Assets\Resources\Task 2\Notes.cs" />
+    <Compile Include="Assets\Resources\Task 2\GetDataBehaviour.cs" />
+    <Compile Include="Assets\Resources\Task 1\PatrolPointBehaviour.cs" />
+    <Compile Include="Assets\Resources\Task 1\PlayerBehaviour.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Resources\Task 2\Text\words_alpha.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
