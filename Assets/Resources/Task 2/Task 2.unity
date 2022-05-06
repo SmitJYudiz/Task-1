@@ -239,10 +239,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textFile: {fileID: 4900000, guid: c00ed5f1ef962ca48aa61a6667621728, type: 3}
-  numberOfWords: 3
-  startingLetter: tt
+  startingLetter: d
+  wordLength: 4
   rawWords: []
-  counter: 0
 --- !u!65 &1392605972
 BoxCollider:
   m_ObjectHideFlags: 0
